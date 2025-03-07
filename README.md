@@ -1,16 +1,16 @@
-# Teste Frontend V4
+# 🏆 Teste Frontend
 
 ![Aiko](img/aiko.png)
 
 Neste teste serão avaliados seus conhecimentos em Javascript, HTML e CSS, a criatividade e metodologia aplicada no desenvolvimento, a usabilidade e design da aplicação final.
 
-## O Desafio
+## 🚀 O Desafio
 
 Você é o desenvolvedor frontend de uma empresa que coleta dados de equipamentos utilizados em uma operação florestal. Dentre esses dados estão o histórico de posições e estados desses equipamentos. O estado de um equipamento é utilizado para saber o que o equipamento estava fazendo em um determinado momento, seja *Operando*, *Parado* ou em *Manutenção*. O estado é alterado de acordo com o uso do equipamento na operação, já a posição do equipamento é coletada através do GPS e é enviada e armazenada de tempo em tempo pela aplicação.
 
 Seu objetivo é, de posse desses dados, desenvolver o frontend de aplicação web que trate e exibida essas informações para os gestores da operação.
 
-## Requisitos
+## 🎯 Requisitos
 
 Esses requisitos são obrigatórios e devem ser desenvolvidos para a entrega do teste.
 
@@ -20,7 +20,7 @@ Esses requisitos são obrigatórios e devem ser desenvolvidos para a entrega do 
 
 * **Histórico de estados do equipamento**: Permitir a visualização do histórico de estados de um equipamento específico ao clicar sobre o equipamento.
 
-## Dados
+## 🎲 Dados
 
 Todos os dados que precisa para desenvolver os requisitos estão na pasta `data/` no formato `json` e são detalhados a seguir.
 
@@ -141,8 +141,8 @@ O histórico de posições dos equipamentos.
 ]
 ```
 
-
-## O que é permitido
+## 🛠️ Regras do Teste
+### ✅ O que é permitido
 
 * Vue, React e Angular.
 
@@ -164,15 +164,15 @@ O histórico de posições dos equipamentos.
 
 * Qualquer tecnologia complementar as citadas anteriormente são permitidas desde que seu uso seja justificável.
 
-## O que não é permitido
+### ❌ O que não é permitido
 
 * Utilizar componentes ou códigos de terceiros que implementem algum dos requisitos.
 
-## Recomendações
+## 💡 Recomendações
 
 * **Linter**: Desenvolva o projeto utilizando algum padrão de formatação de código.
 
-## Extras
+## 🌟 Extras
 
 Aqui são listados algumas sugestões para você que quer ir além do desafio inicial. Lembrando que você não precisa se limitar a essas sugestões, se tiver pensado em outra funcionalidade que considera relevante ao escopo da aplicação fique à vontade para implementá-la.
 
@@ -196,12 +196,23 @@ Aqui são listados algumas sugestões para você que quer ir além do desafio in
 
 Para realizar a entrega do teste você deve:
 
-* Relizar o fork e clonar esse repositório para sua máquina.
+1. Relizar o fork e clonar esse repositório para sua máquina.
+2. Crie uma branch com seu nome no seguinte formato:
+    - `teste/[NOME]`
+    - `[NOME]`: Seu nome.
+    - Exemplos: `teste/fulano-da-silva`; `teste/beltrano-primeiro-gomes`.
+3. Implemente sua solução e faça commit das alterações.
+4. Grave um vídeo explicando sua solução. O vídeo deve:
+    - Mostrar a aplicação em funcionamento
+    - Explicar as decisões técnicas adotadas
+    - Comentar sobre desafios enfrentados e como foram resolvidos
+    - O link do vídeo deve estar no Pull Request ou no README.md do projeto (pode ser não listado no YouTube ou um link compartilhável no Google Drive)
+5. Crie um Pull Request para este repositório com sua branch.
   
-* Criar uma branch com o nome de `teste/[NOME]`.
-  * `[NOME]`: Seu nome.
-  * Exemplos: `teste/fulano-da-silva`; `teste/beltrano-primeiro-gomes`.
-  
-* Faça um commit da sua branch com a implementação do teste.
-  
-* Realize o pull request da sua branch nesse repositório.
+## 📌 Considerações
+- Você pode utilizar qualquer tecnologia adicional ou abordagem diferente, desde que justifique sua escolha no README.md.
+- A organização, legibilidade e boas práticas no desenvolvimento serão avaliadas, então priorize código limpo, modular e bem documentado.
+- Dúvidas? Caso tenha qualquer dúvida sobre o teste, fique à vontade para perguntar!
+
+
+**📩 Boa sorte! Estamos ansiosos para ver seu código e sua apresentação! 🚀**
